@@ -40,6 +40,7 @@ header {
   background: #fff;
   padding: 1rem 0rem;
   position: sticky;
+  border-bottom: 1px solid #e0e0e0;
   top: 0;
   z-index: 100;
 }
@@ -50,8 +51,64 @@ nav {
   justify-content: space-between;
 }
 
+.btn-flat{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.menu-mobile {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  transform: translateX(-100%);
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  border-right: 1px solid #e0e0e0;
+}
+
+.btn-back{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 15px;
+  border: none;
+  background: transparent;
+
+  svg{
+    height: 30px;
+    width : 30px;
+   
+  }
+}
+
+.menu-mobile.open {
+  transform: translateX(0);
+}
+
+.menu-mobile li {
+  list-style: none;
+}
+
+.menu-mobile ul {
+  padding: 10px 0px;
+  cursor: pointer;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0px 20px;
+}
+
 .logo {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+    /* height: 20px; */
+  /* width: 20px; */
+
+  img{
+    height: auto;
+  width: 150px;
+  /* testar melhor 150px 120 etc */
+  }
 }
 
 .only-mobile{
