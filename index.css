@@ -475,6 +475,7 @@ footer h5 {
   gap: 2rem;
   margin-bottom: 2rem;
 
+  
   svg{
     width: 30px;
     height: auto;
@@ -489,10 +490,21 @@ footer h3 {
   margin-bottom: 0.5rem;
   color: #3b945e;
 }
-
-footer a {
-  color: #3b945e;
+.footer-infos h5{
+  color: black;
 }
+
+.footer-infos{
+  color: gray;
+}
+
+.footer-infos a:hover,
+.footer-infos p:hover,
+.footer-infos li:hover{
+  color: black;
+}
+
+
 
 .creditos {
   strong{
