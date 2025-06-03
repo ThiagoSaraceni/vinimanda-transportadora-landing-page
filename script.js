@@ -36,3 +36,23 @@ menuButton.addEventListener("click", () => {
 btnBack.addEventListener("click", () => {
   mobileMenu.classList.toggle("open");
 });
+
+const goToAboutUs = () => {
+  document.getElementById("beneficios").scrollIntoView({ behavior: "smooth" });
+  mobileMenu.classList.remove("open");
+};
+
+const goToCompany = () => {
+  document.getElementById("empresa").scrollIntoView({ behavior: "smooth" });
+  mobileMenu.classList.remove("open");
+};
+
+const goToFleets = () => {
+  document.getElementById("frotas").scrollIntoView({ behavior: "smooth" });
+  mobileMenu.classList.remove("open");
+};
+
+const goToContacts = () => {
+  document.getElementById("contacts").scrollIntoView({ behavior: "smooth" });
+  mobileMenu.classList.remove("open");
+};
