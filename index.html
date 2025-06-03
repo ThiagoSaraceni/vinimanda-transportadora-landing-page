@@ -25,10 +25,10 @@
           <img src="logo-vinimanda 1 (1).jpg" alt="Vinimanda logo" />
         </div>
         <ul class="menu">
-          <li><a href="#sobre">Sobre nós</a></li>
-          <li><a href="#empresa">Empresa</a></li>
-          <li><a href="#frotas">Frotas</a></li>
-          <li><a href="#contato">Contatos</a></li>
+          <li><a onclick="goToAboutUs()">Benefícios</a></li>
+          <li><a onclick="goToCompany()">Empresa</a></li>
+          <li><a onclick="goToFleets()">Frotas</a></li>
+          <li><a onclick="goToContacts()">Contatos</a></li>
           <a
             class="orcamento-button"
             href="https://api.whatsapp.com/send?phone=5519999992341"
@@ -103,16 +103,16 @@
             <b>Voltar</b>
           </button>
           <li>
-            <ul>
-              Sobre nós
+            <ul onclick="goToAboutUs()">
+              Benefícios
             </ul>
-            <ul>
+            <ul onclick="goToCompany()">
               Empresa
             </ul>
-            <ul>
+            <ul onclick="goToFleets()">
               Frotas
             </ul>
-            <ul>
+            <ul onclick="goToContacts()">
               Contatos
             </ul>
           </li>
@@ -177,7 +177,7 @@
       </section>
 
       <!-- POR QUE ESCOLHER -->
-      <section class="beneficios">
+      <section id="beneficios" class="beneficios">
         <div class="conteudo">
           <h2 id="titulo-beneficios">
             Por que escolher Vinimanda Transportes?
@@ -371,7 +371,7 @@
     <!-- RODAPÉ -->
     <footer>
       <section>
-        <div class="conteudo footer-infos">
+        <div id="contacts" class="conteudo footer-infos">
           <div>
             <h5>Serviços:</h5>
             <ul>
