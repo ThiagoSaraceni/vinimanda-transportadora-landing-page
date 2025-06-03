@@ -1,12 +1,10 @@
 * {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  
 }
 
 body {
@@ -95,12 +93,13 @@ nav {
 }
 
 .logo {
-
   img{
     height: auto;
   width: 150px;
   }
 }
+
+
 
 .only-mobile{
   display: none;
@@ -237,6 +236,30 @@ nav {
   filter: drop-shadow(0 0 0.6rem rgb(40, 199, 111)););
 }
 
+.from-left, .from-right, .from-bottom {
+  opacity: 0;
+  transition: all 0.6s ease-out;
+  filter: blur(10px);
+}
+
+.from-left {
+  transform: translateX(-50%);
+}
+
+.from-right {
+  transform: translateX(50%);
+}
+
+.from-bottom{
+  transform: translateY(30%);
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0px);
+}
+
 
 /* ===== BENEFÍCIOS ===== */
 .beneficios {
@@ -258,6 +281,19 @@ nav {
 
   gap: 1.5rem;
 }
+
+.cards :nth-child(2){
+  transition-delay: 200ms;
+}
+
+.cards :nth-child(3){
+  transition-delay: 400ms;
+}
+
+.cards :nth-child(4){
+  transition-delay: 600ms;
+}
+
 
 .cards article {
   display: flex;
@@ -355,12 +391,24 @@ article svg{
   background-color: #28C76F;
 }
 
+.mb-1{
+  margin-bottom: 5px;
+}
+
 
 
 .sobre ul {
   margin-top: 1rem;
   padding-left: 1rem;
   list-style-type: disc;
+}
+
+.principios:nth-child(2){
+  transition-delay: 200ms;
+}
+
+.principios:nth-child(2){
+  transition-delay: 400ms;
 }
 
 /* ===== PRINCÍPIOS ===== */
@@ -451,10 +499,20 @@ figcaption {
   padding: 2px 6px;
   color: #FFFF;
   font-weight: 400;
-  /* margin-top: 0.5rem; */
 }
 
-/* ===== FOOTER ===== */
+.veiculos :nth-child(2){
+  transition-delay: 200ms;
+}
+
+.veiculos :nth-child(3){
+  transition-delay: 400ms;
+}
+
+.veiculos :nth-child(4){
+  transition-delay: 600ms;
+}
+
 footer {
 
 
