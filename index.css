@@ -242,7 +242,6 @@ nav {
 }
 
 
-/* ===== BENEFÍCIOS ===== */
 .beneficios {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -388,12 +387,10 @@ article svg{
   transition-delay: 200ms;
 }
 
-/* ===== PRINCÍPIOS ===== */
 .principios  {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  /* margin-top: 2rem; */
 }
 
 .principios h4{
@@ -413,7 +410,6 @@ article svg{
   border-bottom-right-radius: 0.5rem; 
 }
 
-/* ===== FROTAS ===== */
 .frotas {
   padding-top: 3rem;
   padding-bottom: 3rem;
