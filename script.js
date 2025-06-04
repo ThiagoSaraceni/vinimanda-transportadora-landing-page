@@ -56,3 +56,7 @@ const goToContacts = () => {
   document.getElementById("contacts").scrollIntoView({ behavior: "smooth" });
   mobileMenu.classList.remove("open");
 };
+
+const backTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
