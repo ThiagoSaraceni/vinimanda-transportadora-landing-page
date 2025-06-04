@@ -264,15 +264,15 @@ nav {
 }
 
 .cards :nth-child(2){
-  transition-delay: 200ms;
+  transition-delay: 150ms;
 }
 
 .cards :nth-child(3){
-  transition-delay: 400ms;
+  transition-delay: 250ms;
 }
 
 .cards :nth-child(4){
-  transition-delay: 600ms;
+  transition-delay: 350ms;
 }
 
 
@@ -320,9 +320,6 @@ article svg{
   overflow: clipscroll;
 }
 
-/* .contacts-flex svg{
-
-} */
 
 .years-container{
   display: flex;
@@ -333,7 +330,6 @@ article svg{
 }
 
 
-/* ===== SOBRE ===== */
 .sobre {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -385,11 +381,11 @@ article svg{
 }
 
 .principios:nth-child(2){
-  transition-delay: 200ms;
+  transition-delay: 100ms;
 }
 
 .principios:nth-child(2){
-  transition-delay: 400ms;
+  transition-delay: 200ms;
 }
 
 /* ===== PRINCÍPIOS ===== */
@@ -483,15 +479,15 @@ figcaption {
 }
 
 .veiculos :nth-child(2){
-  transition-delay: 200ms;
+  transition-delay: 150ms;
 }
 
 .veiculos :nth-child(3){
-  transition-delay: 400ms;
+  transition-delay: 250ms;
 }
 
 .veiculos :nth-child(4){
-  transition-delay: 600ms;
+  transition-delay: 350ms;
 }
 
 footer {
@@ -679,6 +675,30 @@ footer h3 {
     opacity: 1;
     transform: translateX(0);
     filter: blur(0px);
+  }
+
+  .cards :nth-child(2){
+    transition-delay: 100ms;
+  }
+  
+  .cards :nth-child(3){
+    transition-delay: 200ms;
+  }
+  
+  .cards :nth-child(4){
+    transition-delay: 300ms;
+  }
+
+  .veiculos :nth-child(2){
+    transition-delay: 100ms;
+  }
+  
+  .veiculos :nth-child(3){
+    transition-delay: 200ms;
+  }
+  
+  .veiculos :nth-child(4){
+    transition-delay: 300ms;
   }
 
 
