@@ -47,7 +47,7 @@ const goToCompany = () => {
   mobileMenu.classList.remove("open");
 };
 
-const goToFleets = () => {
+const goToFleet = () => {
   document.getElementById("frotas").scrollIntoView({ behavior: "smooth" });
   mobileMenu.classList.remove("open");
 };
