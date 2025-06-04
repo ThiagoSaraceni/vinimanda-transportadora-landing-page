@@ -653,6 +653,14 @@ footer h3 {
 
 @media (max-width: 768px) {
 
+  #titulo-beneficios{
+    font-size: 2.2rem;
+  }
+
+  #main-text{
+    font-size: 3rem;
+  }
+
   .from-left, .from-right, .from-bottom {
     opacity: 0;
     transition: all 0.6s ease-out;
@@ -759,6 +767,17 @@ footer h3 {
     align-items: center;
     justify-items: center;
   }
+
+  .footer-infos h5{
+    font-size: 1.1rem;
+  }
+
+  #email-rodape{
+    word-break: break-word;
+  overflow-wrap: break-word;
+  font-size: 11.5px;
+  }
+
 
   .contacts-flex{
     display: flex;
